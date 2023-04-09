@@ -25,7 +25,7 @@ const logger = winston.createLogger({
     logger.add(new winston.transports.Console({
       format: winston.format.simple(),
     }));
-    
+     
   }
 const add= (n1,n2) => {
     return n1+n2;
